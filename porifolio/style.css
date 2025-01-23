@@ -5,6 +5,8 @@
 
 header{
     display: flex;
+    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: 15px;
 }
@@ -29,10 +31,10 @@ header{
     align-items: center;
        
 }
-
 .meio1{
     display: flex;
     align-items: center;
+    
     
 }
 .meio2{
@@ -55,15 +57,11 @@ header{
 }
 .h2{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight:lighter;
-    font-style: italic;
-    
+    font-weight:lighter;    
 }
-
-
 .boao{
-    background-image: linear-gradient(to left, rgb(209, 22, 209),rgb(69, 218, 69) );
-    padding: 15px;
+    background-color: rgb(69, 218, 69);
+    padding: 12px;
     border-radius: 1000px;
     color: white;
     text-decoration: none;
@@ -71,4 +69,12 @@ header{
     font-size: larger;
     font-weight: bold;
     transition-duration: 0.5s;
+}
+.boao:hover{
+    background-color: white;
+    color: rgb(69, 218, 69);
+    border: 3px solid rgb(69, 218, 69);
+}
+.nome{
+    margin: 0px;
 }
