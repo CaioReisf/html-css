@@ -5,16 +5,15 @@
 
 header{
     display: flex;
-    justify-content: center;
     justify-content: space-between;
     align-items: center;
-    margin: 15px;
+    margin: 1rem;
 }
 .navega{
     text-decoration: none;
     font-family: "Lexend Tera", serif;
     font-weight: 300;
-    margin:10px ;
+    margin: 0.5rem; ;
     color: rgb(69, 218, 69);
     transition-duration: 0.5s;
     
@@ -22,28 +21,28 @@ header{
 .navega:hover{
     color:rgb(255, 255, 255);
     background-color: rgb(69, 218, 69);
-    padding: 10px;
+    padding: 0.5rem;
     border-radius: 100px;
 }
 .icons-redes{
     width: 30px;
-    display: inline;
+    display: inline-block;
     align-items: center;
        
 }
 .meio1{
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
     
 }
 .meio2{
-    margin-top: 200px;
-    margin-left: 60px;
+    margin-top: 12re0;
+    margin-left: 3.75rem;
 }
 .desenho{
     width: 430px;
     height: 430px;
+    
 }
 .desenho1{
     margin-left: 380px;
@@ -73,8 +72,8 @@ header{
 .boao:hover{
     background-color: white;
     color: rgb(69, 218, 69);
-    border: 3px solid rgb(69, 218, 69);
+    border: 1px solid rgb(69, 218, 69);
 }
 .nome{
-    margin: 0px;
+    margin: 0;
 }
