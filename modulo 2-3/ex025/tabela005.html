@@ -19,6 +19,9 @@
             background-color: gray;
             color: white;
         }
+        #oii{
+            background-color: aqua;
+        }
 
     </style>
 </head>
@@ -26,13 +29,13 @@
     <!--{}-->
     <table>
         <tr>
-            <th class="bel">Area</th>
-            <th class="bel">Disciplinas</th>
-            <th colspan="2" class="bel">Notas <br> notas 1 notas 2</th>    
-            <th class="bel">Media</th>        
+            <th class="bel" scope="col">Area</th>
+            <th class="bel" scope="col">Disciplinas</th>
+            <th colspan="2" class="bel" scope="colgroup">Notas <br> notas 1 notas 2</th>    
+            <th class="bel" scope="colgroup">Media</th>        
         </tr>
         <tr>
-            <th rowspan="4">Exatas</th>
+            <th rowspan="4" scope="rowgroup">Exatas</th>
             <td>Matematica</td>
             <td>0,0</td>
             <td>0,0</td>
@@ -57,7 +60,7 @@
             <td>0,0</td>
         </tr>
         <tr>
-            <th colspan="4" class="bel">Media Exatas</th>
+            <th colspan="4" class="bel" scope="col">Media Exatas</th>
             <td class="bel">0,0</td>            
         </tr>
         <tr>
@@ -80,7 +83,7 @@
             <td>0,0</td>
         </tr>
         <tr>
-            <th colspan="4" class="bel">Media Humanas</th>
+            <th colspan="4" class="bel" scope="col">Media Humanas</th>
             <td class="bel">0,0</td>            
         </tr>
 
