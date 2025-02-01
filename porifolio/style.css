@@ -2,25 +2,32 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     margin: 0px;
+    background: black url(imagens/juanjo-jaramillo-mZnx9429i94-unsplash.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Deixa mais escuro */
+    backdrop-filter: blur(8px); /* Desfoca o fundo */
+    z-index: -1;
 }
 header{
     background-color: rgb(120, 206, 120);
-    padding: 30px;
-    background-attachment: fixed; 
+    padding: 40px;    
     display: flex;
     align-items: center;
-    justify-content: center;
-    justify-content: space-between;
+    justify-content: center; 
     transition: 0.5s;
-}
-.icons-redes{
-    width: 30px;
-    padding: 1px;
-    background-color: white;
-    border-radius: 10px;
 }
 .navega{    
     justify-content: center;
@@ -46,10 +53,25 @@ main{
     height: 89vh; /* Faz a seção ocupar a tela toda */
     
 }
+
 .info{
     max-width: 600px; /* Define uma largura máxima para melhor visualização */
     padding: 20px; /* Adiciona um espaçamento interno */
 }
+h1{
+    font-family: "Righteous", serif;
+    font-size: 70px;
+    margin: 0%;
+    color: white;
+    }
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: 100;
+    margin-top: 0%;
+    margin-bottom: 7%;
+    color: white;
+} 
 .boao{
     justify-content: center;
     text-decoration: none;
@@ -62,7 +84,7 @@ main{
 .boao:hover{
     padding: 16px;    
     border: 1px solid rgb(120, 206, 120) ;
-    color:rgb(120, 206, 120);
-    background-color: white;
+    color:rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     border-radius: 100px;
 }
