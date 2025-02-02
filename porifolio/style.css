@@ -21,8 +21,7 @@ body::before {
     backdrop-filter: blur(8px); /* Desfoca o fundo */
     z-index: -1;
 }
-header{
-    background-color: rgb(120, 206, 120);
+header{    
     padding: 40px;    
     display: flex;
     align-items: center;
