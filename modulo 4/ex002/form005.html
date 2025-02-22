@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cad.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>sexo</legend>
+
+            <input type="radio" name="sex" id="sexm" value="m"> <label for="sexm">Masulino</label>
+            
+            <input type="radio" name="sex" id="sexf" value="f"> <label for="sexf">Feminino</label>
+
+        </fieldset>
+        <fieldset>
+
+            <legend>esportes favs</legend>
+
+            <input type="checkbox" name="fut" id="ifut"> <label for="ifut">Futebol</label> <br>
+
+            <input type="checkbox" name="volei" id="ivolei"> <label for="ivolei">Volei</label> <br>
+
+            <input type="checkbox" name="ping" id="iping"> <label for="iping">ping-pong</label> <br>
+
+            <input type="checkbox" name="espor" id="iespor"> <label for="iespor">e-spors </label><br>
+        </fieldset>
+        
+        
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
