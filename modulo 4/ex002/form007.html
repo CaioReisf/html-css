@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cad.php" method="get" autocomplete="on">
+
+        <p>
+            <label for="ies">ES:</label>
+            <select name="es" id="ies">
+                <optgroup label="sudeste">
+                    <option value="SP">Sao paulo</option>
+                    <option value="RJ" selected>Rio de janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+                
+                <optgroup label="sul">
+                    <option value="RG">Rio grande do sul</option>
+                    <option value="SC">Santa catarina</option>
+                    <option value="PR">Parana</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">profissao</label>
+            <input type="text" name="prof" id="iprof" list="profs">
+            <datalist id="profs">
+                <option value="adm">ADM</option>
+                <option value="dev">DEV</option>
+
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">mensagem <br></label>
+            <textarea name="msg" id="imsg"></textarea>
+        </p>
+
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
