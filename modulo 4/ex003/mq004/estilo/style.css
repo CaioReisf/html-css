@@ -40,22 +40,8 @@ img{
     margin: auto;
 }
 
-#phone{
-    display: block;
-}
-
-#labe{
-    display: none;
-}
-
-#pc{
-    display: none;
-}
-
-#impressao{
-    display: none;
-}
-
-#ela{
-    display: none;
-}
+#phone{display: block;}
+#labe{display: none;}
+#pc{display: none;}
+#impressao{display: none;}
+#ela{display: none;}

@@ -3,5 +3,51 @@
 /* CONFIG MIDIA */
 
 @media print{
+    body{
+        background-image: url(../imagens/back-print.jpg); /*desnecessario*/
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    #phone{display:none;}
+    #labe{display: none;}
+    #pc{display: none;}
+    #impressao{display: block;}
+    #ela{display: none;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    #phone{display:none;}
+    #labe{display: block;}
+    #pc{display: none;}
+    #impressao{display: none;}
+    #ela{display: none;}
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #phone{display:none;}
+    #labe{display: none;}
+    #pc{display: block;}
+    #impressao{display: none;}
+    #ela{display: none;}
     
 }
+
+@media screen and (min-width: 1200px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    #phone{display:none;}
+    #labe{display: none;}
+    #pc{display: none;}
+    #impressao{display: none;}
+    #ela{display: block;}
+}
+
