@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title> <!---{} ()-->
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
 </head>
 <body>
     <header>
         <h1>minha pagina</h1>
-        <menu>
+        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">
+            menu
+            </span>
+        <menu id="iens">
             <ul>
                 <li><a href="#"> opcao 1</a></li>
                 <li><a href="#"> opcao 2</a></li>
@@ -35,5 +39,15 @@
         </article>
         
     </main>
+    <script>
+        function clickMenu(){
+            if (iens.style.display=='block'){
+                iens.style.display='none'
+            } else{
+                iens.style.display='block'
+            }
+
+        }
+    </script>
 </body>
 </html>
