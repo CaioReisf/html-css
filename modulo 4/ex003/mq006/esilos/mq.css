@@ -19,17 +19,17 @@
 
 @media screen and (min-width:992px){
     #login{
-        width: 990px;
+        width: 950px;
     }
 
     #imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #forms{
-        float: right;
+        float: left;
         width: 50%;        
     }
 }
