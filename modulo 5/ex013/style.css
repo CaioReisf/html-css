@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.i{
+    border: 1px solid black;
+}
+
+.con{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px 100px 100px 100px;
+}
